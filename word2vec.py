@@ -23,7 +23,7 @@ for line in lines:
 print(filtered_lines)
 
 bigram = []
-
+#addded comments
 for line in filtered_lines:
     for i in range(len(line)-1):
         for j in range(i+1, len(line)):
